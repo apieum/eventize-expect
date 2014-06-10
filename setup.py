@@ -24,7 +24,7 @@ setup(
     ],
     install_requires=[
         "inxpect",
-        "eventize"
+        "eventize>=0.4.3"
     ],
     entry_points = {'eventize.events': '.Expect = expect:Expect'},
     zip_safe=True,

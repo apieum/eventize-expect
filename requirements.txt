@@ -1,2 +1,2 @@
-eventize>=0.4.2
+eventize>=0.4.3
 inxpect>=0.4
