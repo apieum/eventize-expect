@@ -9,7 +9,7 @@ class TestCase(unittest.TestCase):
 
 from eventize import Attribute, handle, on_get, on_set
 from eventize.method import BeforeHandler, BeforeEvent
-from eventize.events import Expect
+from .expect import Expect
 
 
 class ClassWithAttr(object):
